@@ -8,14 +8,16 @@ namespace AbstraccionQ12025
 {
     public class Circulo : Figura
     {
+        public double Radio;
         public override double Area()
         {
-            throw new NotImplementedException();
+            double area = Math.PI * Radio * Radio;
+            return area;
         }
-
+ 
         public override double Perimetro()
         {
-            throw new NotImplementedException();
+            return 2*Math.PI;
         }
     }
 }

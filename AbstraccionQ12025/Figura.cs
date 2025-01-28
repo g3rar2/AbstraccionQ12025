@@ -26,8 +26,8 @@ namespace AbstraccionQ12025
         /// <param name="NombreFigura">Geometric Name</param>
         public void Imprimir(string NombreFigura)
         {
-            Console.WriteLine($"Area de {NombreFigura}: {Area}");
-            Console.WriteLine($"Perimetro de {NombreFigura}: {Perimetro}");
+            Console.WriteLine($"Area de {NombreFigura}: {Area} cm2");
+            Console.WriteLine($"Perimetro de {NombreFigura}: {Perimetro} cm");
         }
 
 
